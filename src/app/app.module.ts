@@ -1,0 +1,41 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { RouterModule, Routes } from '@angular/router';
+
+import { AppComponent } from './app.component';
+import { PortfolioPageComponent } from './pages/portfolio-page/portfolio-page.component';
+import { HeaderNavComponent } from './components/header-nav/header-nav.component';
+
+const appRoutes: Routes = [
+  { path: 'portfolio', component: PortfolioPageComponent },
+  // { path: 'hero/:id',      component: HeroDetailComponent },
+  // {
+  //   path: 'heroes',
+  //   component: HeroListComponent,
+  //   data: { title: 'Heroes List' }
+  // },
+  { path: '',
+    redirectTo: '/portfolio',
+    pathMatch: 'full'
+  }
+  // { path: '**', component: PageNotFoundComponent }
+];
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    PortfolioPageComponent,
+    HeaderNavComponent,
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    RouterModule.forRoot(appRoutes)
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
