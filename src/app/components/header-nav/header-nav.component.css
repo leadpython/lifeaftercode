@@ -42,12 +42,12 @@
   padding-bottom: 10px;
   display: inline-block;
   border: none;
-  background-color: white;
+  background-color: transparent;
   text-decoration: none;
 }
 
 .active-link {
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: rgb(225,225,225);
+  color: rgb(25,25,25);
 }
