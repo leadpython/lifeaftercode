@@ -16,7 +16,7 @@
 #info-container {
   position: absolute;
   top:  0;
-  left: 200px;
+  left: 210px;
   padding-left: 10px;
 }
 
@@ -28,4 +28,17 @@
 #occupation {
   font-size: 20px;
   margin: 0;
+}
+
+#nav-links-container {
+  position: absolute;
+  right: 200px;
+  bottom: 0;
+}
+
+.link {
+  padding: 25px;
+  padding-bottom: 5px;
+  display: inline-block;
+  color: rgb(100,100,100);
 }
