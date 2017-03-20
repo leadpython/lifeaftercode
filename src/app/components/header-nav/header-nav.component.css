@@ -1,7 +1,32 @@
 #main {
-
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100px;
+  background-color: white;
+  padding-left: 100px;
 }
 
 #image {
-  
+  height: 100px;
+  width: 100px;
+  border: 1px solid blue;
+}
+
+#info-container {
+  position: absolute;
+  top:  0;
+  left: 200px;
+  padding-left: 10px;
+}
+
+#name {
+  font-size: 40px;
+  margin: 0;
+}
+
+#occupation {
+  font-size: 20px;
+  margin: 0;
 }
