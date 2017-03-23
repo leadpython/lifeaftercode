@@ -11,11 +11,13 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ResumePageComponent } from './pages/resume-page/resume-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { BlogPageComponent } from './pages/blog-page/blog-page.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'resume', component: ResumePageComponent },
   { path: 'portfolio', component: PortfolioPageComponent },
+  { path: 'blog', component: BlogPageComponent },
   { path: 'contact', component: ContactPageComponent },
   // { path: 'hero/:id',      component: HeroDetailComponent },
   // {
@@ -26,8 +28,8 @@ const appRoutes: Routes = [
   { path: '',
     redirectTo: '/portfolio',
     pathMatch: 'full'
-  }
-  // { path: '**', component: PageNotFoundComponent }
+  },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
@@ -39,6 +41,7 @@ const appRoutes: Routes = [
     ResumePageComponent,
     ContactPageComponent,
     PageNotFoundComponent,
+    BlogPageComponent,
   ],
   imports: [
     BrowserModule,
