@@ -1,8 +1,13 @@
-.main {
-  position: absolute;
-  top: 100px;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  background-color: rgb(225,225,225);
+.intro-container {
+  display: inline-block;
+  max-width: 720px;
+}
+
+.introduction {
+  display: inline-block;
+  padding: 50px;
+  margin-top: 100px;
+  font-size: 20px;
+  color: black;
+  background-color: rgba(255,255,255,0.8);
 }
