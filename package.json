@@ -4,10 +4,13 @@
   "license": "MIT",
   "main": "server.js",
   "scripts": {
-    "start": "ng build --prod && node server.js"
+    "start": "node server.js",
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "^1.0.0-rc.2",
+    "@angular/compiler-cli": "^2.4.0",
     "@angular/common": "^2.4.0",
     "@angular/compiler": "^2.4.0",
     "@angular/core": "^2.4.0",
@@ -22,8 +25,6 @@
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
-    "@angular/cli": "^1.0.0-rc.2",
-    "@angular/compiler-cli": "^2.4.0",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
