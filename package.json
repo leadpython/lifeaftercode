@@ -2,9 +2,9 @@
   "name": "lifeaftercode",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "/app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "ng build --prod && node app.js"
+    "start": "ng build --prod && node server.js"
   },
   "private": true,
   "dependencies": {
