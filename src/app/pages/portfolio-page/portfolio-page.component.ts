@@ -19,7 +19,7 @@ export class PortfolioPageComponent implements OnInit {
       name: 'Dark.net Hacker',
       description: 'A mobile hacking game where you must use deductive logic to crack your targets\' passwords.',
       github: 'https://github.com/leadpython/darknet-hacker',
-      productLink: 'itunes.apple.com/us/app/dark.net-hacker/id1186099128',
+      productLink: 'https://itunes.apple.com/us/app/dark.net-hacker/id1186099128',
       imageUrl: '../assets/darknet.png',
       technologies: 'JavaScript, HTML, CSS, Objective-C, AngularJS, Ionic, Cordova'
     },
@@ -27,7 +27,7 @@ export class PortfolioPageComponent implements OnInit {
       name: 'Corswerk',
       description: 'A simple course planner app for students.',
       github: 'https://github.com/leadpython/Corswerk-Mobile',
-      productLink: 'itunes.apple.com/us/app/corswerk/id1206491077',
+      productLink: 'https://itunes.apple.com/us/app/corswerk/id1206491077',
       imageUrl: '../assets/corswerk.png',
       technologies: 'JavaScript, HTML, CSS, Objective-C, AngularJS, Ionic, Cordova'
     },
