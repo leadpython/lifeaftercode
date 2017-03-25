@@ -12,6 +12,7 @@ import { ResumePageComponent } from './pages/resume-page/resume-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { BlogPageComponent } from './pages/blog-page/blog-page.component';
+import { AppCardComponent } from './components/app-card/app-card.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomePageComponent },
@@ -42,6 +43,7 @@ const appRoutes: Routes = [
     ContactPageComponent,
     PageNotFoundComponent,
     BlogPageComponent,
+    AppCardComponent,
   ],
   imports: [
     BrowserModule,
